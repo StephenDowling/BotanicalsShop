@@ -21,14 +21,22 @@ S Dowling x21189994@student.ncirl.ie
 }
 .navbox{
     border:1px solid black;
-    color:black;
+    color:white;
+    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    opacity:0.8; 
 }
 .navbar{
     color:white;
     display:inline-block;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-size: 40px;
-    margin:auto;
+}
+.navboxitem{
+    text-align: left;
+    font-size: large;
+}
+a{
+    color:white;
 }
 a:hover{
     color:orange;
@@ -38,9 +46,12 @@ h1{
 }
 .plantcare{
     background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    opacity:0.6;    
+    opacity:0.8;    
     color:white;
     text-align:center;
     padding:20px;
 }
-
+#footer{
+    text-align: center;
+    justify-content: space-around;
+}
