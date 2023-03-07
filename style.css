@@ -1,0 +1,46 @@
+/*
+style.css Plant Care
+S Dowling x21189994@student.ncirl.ie
+28 02 2023
+*/
+
+.column{
+    justify-content:space-between;
+    text-align:center;
+    margin-top:80px;
+    min-height:100px;
+}
+.header{
+    background-color:green;
+    color:white;
+    text-align:center;
+}
+.container-fluid{
+    background-color: green;
+    color:white;
+}
+.navbox{
+    border:1px solid black;
+    color:black;
+}
+.navbar{
+    color:white;
+    display:inline-block;
+    justify-content: space-evenly;
+    font-size: 40px;
+    margin:auto;
+}
+a:hover{
+    color:orange;
+}
+h1{
+    text-decoration: bold;
+}
+.plantcare{
+    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    opacity:0.6;    
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
