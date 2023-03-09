@@ -36,8 +36,29 @@
             </div>
             <div>
                 <div class="row"> <!--row3-->
-                    <div class="col-lg-12 column">
-                        <form>Form</form>
+                    <div class="col-lg-6 column plantcare" id="contactform">
+                        <form>
+                            <label for="name">Your first name</label>
+                            <input type="text" id="fname" placeholder="Please enter your first name here"><br>
+                            <label for="name">Your last name</label>
+                            <input type="text" id="lname" placeholder="Please enter your last name here"><br>
+                            <label for="email">Your email</label>
+                            <input type="text" id="email" placeholder="Please enter your email address here"><br>
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="Ireland">Ireland</option>
+                                <option value="Ireland">UK</option>
+                                <option value="Ireland">EU</option>
+                                <option value="Ireland">USA</option>
+                                <option value="Ireland">Rest of the World</option>
+                            </select>
+                            <br>
+                            <label for="query">Your query</label>
+                            <textarea id="query" placeholder="Please enter your query here"></textarea><br>
+                            <label for="query">Do you want to receive information about our latest offers?</label>
+                            <input type="checkbox" id="offers" value="Subscribed to offers"><br>
+                            <input type="submit" id="Submit" value="Submit">
+                        </form>
                     </div>
                 </div>
             </div>
