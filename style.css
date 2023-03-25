@@ -3,16 +3,20 @@ style.css Plant Care
 S Dowling x21189994@student.ncirl.ie
 28 02 2023
 */
-
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
 .column{
-    justify-content:space-between;
+    justify-content:flex-start;
     text-align:center;
     margin-top:80px;
 }
 .header{
     color:white;
     text-align:center;
-    
 }
 .container-fluid{
     background-color: green;
@@ -23,18 +27,16 @@ S Dowling x21189994@student.ncirl.ie
     background-color:white;
     border-radius:5px;
 }
-#header{
+#navbar{
     text-align:center;
     vertical-align: middle;
-    padding-top:50px;
-    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    opacity:0.8; 
-}
-.navbox{
-    border:1px solid black;
-    color:white;
-    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    opacity:0.8; 
+    padding-top:20px;
+    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); 
+    margin-top:30px;
+    position: sticky;
+    top:0;
+    padding-bottom:5px;
+    margin:auto;
     border-radius:5px;
 }
 .navbar{
@@ -45,20 +47,28 @@ S Dowling x21189994@student.ncirl.ie
     font-size:x-large;
     border-radius:5px;
 }
-/*.navbar{
+.navbox{
+    border:1px solid black;
     color:white;
-    display:inline-block;
-    justify-content: space-around;
-    font-size: 40px;
+    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    opacity:0.8; 
     border-radius:5px;
-}*/
+    z-index: 9;
+}
+li a{
+    text-decoration: none;
+  }
+#navbar li a:hover {
+    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  }
 .navboxitem{
     text-align: left;
     font-size: large;
 }
 a{
     color:white;
-    padding:20px;
+    margin:auto;
+    padding:10px;
 }
 a:hover{
     color:orange;
@@ -82,6 +92,7 @@ h1{
     opacity:0.8; 
     vertical-align: middle;
     margin-top:100px;
+    padding-bottom:50px;
 }
 #contactform{
     text-align:left;
