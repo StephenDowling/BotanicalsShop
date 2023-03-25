@@ -10,17 +10,13 @@ body{
     overflow-x: hidden;
 }
 .column{
-    justify-content:flex-start;
+    justify-content:space-around;
     text-align:center;
     margin-top:80px;
 }
 .header{
     color:white;
     text-align:center;
-}
-.container-fluid{
-    background-color: green;
-    color:white;
 }
 #logo{
     height:100%;
@@ -32,28 +28,36 @@ body{
     vertical-align: middle;
     padding-top:20px;
     background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); 
+    opacity:0.8;   
     margin-top:30px;
     position: sticky;
     top:0;
     padding-bottom:5px;
-    margin:auto;
     border-radius:5px;
+    z-index:1;
 }
-.navbar{
+.navbaritem{
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline;
-    font-size:x-large;
+    font-size:25px;
     border-radius:5px;
 }
-.navbox{
+.titlecard{
+    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    opacity:0.8;    
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:5px;
+}
+#table_of_contents{
     border:1px solid black;
     color:white;
     background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     opacity:0.8; 
-    border-radius:5px;
-    z-index: 9;
+    border-radius:5px;  
 }
 li a{
     text-decoration: none;
@@ -76,14 +80,7 @@ a:hover{
 h1{
     text-decoration: bold;
 }
-.plantcare{
-    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    opacity:0.8;    
-    color:white;
-    text-align:center;
-    padding:20px;
-    border-radius:5px;
-}
+
 #footer{
     text-align: center;
     justify-content: space-around; 

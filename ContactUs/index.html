@@ -12,31 +12,30 @@
         <title>Contact Us</title>
     </head>
     <body>
-        <div class="container">
-            <div class="row"> <!--row1-->
-                <div class="col-lg-2 column header">
-                    <img src="../Images/Logo/BotanicalsLogo.png" alt="Botanicals Shop logo">
-                </div>
-                <div class="col-lg-10 column header" id="header">
-                    <ul>
-                        <li class="navbar"><a href="#">Home</a></li>
-                        <li class="navbar"><a href="../index.html">Plant Care</a></li>
-                        <li class="navbar"><a href="#">About Us</a></li>
-                        <li class="navbar"><a href="#">Contact Us</a></li>
-                        <li class="navbar"><a href="#">Shop</a></li>
-                    </ul>
-                </div>
+        <div class="container"> <!--Overall container-->
+            <div id="navbar"> <!--Sticky navbar-->
+                <ul>
+                    <li class="navbaritem"><a href="#">Home</a></li>
+                    <li class="navbaritem"><a href="../index.html">Plant Care</a></li>
+                    <li class="navbaritem"><a href="#">About Us</a></li>
+                    <li class="navbaritem"><a href="ContactUs/index.html">Contact Us</a></li>
+                    <li class="navbaritem"><a href="#">Shop</a></li>
+                </ul>
             </div>
-            <div>
+            <div class="container"> <!--Container for everything else-->
+                <div class="row"> <!--row1-->
+                    <div class="col-lg-12 column ">
+                        <img src="../Images/Logo/BotanicalsLogo.png" alt="Botanicals Shop logo" id="logo">
+                    </div>
+                </div>
                 <div class="row"> <!--row2-->
-                    <div class="col-lg-12 column plantcare">
+                    <div class="col-lg-12 column titlecard">
                         <h1>Contact Us</h1>
                     </div>
                 </div>
-            </div>
             <div>
                 <div class="row"> <!--row3-->
-                    <div class="col-lg-6 column plantcare" id="contactform">
+                    <div class="col-lg-6 column titlecard" id="contactform">
                         <form>
                             <label for="name">Your first name</label>
                             <input type="text" id="fname" placeholder="Please enter your first name here"><br>
