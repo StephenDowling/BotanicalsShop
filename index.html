@@ -9,6 +9,7 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/f4013dd387.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
         <title>
             Plant Care
@@ -31,7 +32,10 @@
                       <li><a class="dropdown-item" href="#">Outdoor Plants</a></li>
                       <li><a class="dropdown-item" href="#">Plant Accessories</a></li>
                     </ul>
-                  </div>
+                </div>
+                <li class="navbaritem"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
+				<li class="navbaritem"><a href="#"><i class="fa fa-fw fa-shopping-basket"></i></a></li>
+				<li class="navbaritem"><a href="#"><i class="fa fa-fw fa-user"></i></a></li>
             </ul>
         </div>
         <div class="container"> <!--Container for everything else-->
@@ -46,7 +50,7 @@
                 </div>
             </div>
             <div class="row"> <!--row3-->
-                <div class="col-lg-6 column table_of_contents titlecard">
+                <div class="col-lg-6 column titlecard">
                     <h1>What can we help you with?</h1>
                     <ol>
                         <li class="navboxitem"><a href="#itemone">What are the benefits of plants?</a></li>
@@ -58,26 +62,26 @@
                     </ol>
                 </div>
                 <div class="col-lg-6 column">
-                    <img src="Images/PlantCare.jpg" alt="A Person Watering a Newly Potted Plant" class="itemimage">
+                    <img src="Images/PlantCare.jpg" alt="A Person Watering a Newly Potted Plant" class="itemimage" id="plantcare_IMG">
                 </div>
             </div>
             <div class="row"> <!--row6-->
                 <div id="itemone"></div>
-                <div class="col-lg-6 column">
+                <div class="col-lg-6 column" id="plantbenefits_TXT">
                     <h1>What are the benefits of plants?</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="col-lg-6 column">
-                    <img src="Images/PlantBenefits.jpg" alt="Hand reaching into a bunch of daisies growing from the earth" class="itemimage">
+                    <img src="Images/PlantBenefits.jpg" alt="Hand reaching into a bunch of daisies growing from the earth" class="itemimage" id="plantbenefits_IMG">
                 </div>
             </div>
             <div class="row"> <!--row5-->
                 <div id="itemtwo"></div>
                 <div class="col-lg-6 column" >
-                    <img src="Images/OutdoorPlants.jpg" alt="Rows of potted plants on a table" class="itemimage">
+                    <img src="Images/OutdoorPlants.jpg" alt="Rows of potted plants on a table" class="itemimage" id="outdoorplants_IMG">
                 </div>
-                <div class="col-lg-6 column">
+                <div class="col-lg-6 column" id="outdoorplants_TXT">
                     <h1>Outdoor Plants</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -85,21 +89,21 @@
             </div>
             <div class="row"> <!--row4-->
                 <div id="itemthree"></div>
-                <div class="col-lg-6 column">
+                <div class="col-lg-6 column" id="indoorplants_TXT">
                     <h1>Indoor Plants</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="col-lg-6 column">
-                    <img src="Images/IndoorPlants.jpg" alt="Indoor plants beneath a white curtain" class="itemimage">
+                    <img src="Images/IndoorPlants.jpg" alt="Indoor plants beneath a white curtain" class="itemimage" id="indoorplants_IMG">
                 </div>
             </div>
             <div class="row"> <!--row7-->
                 <div id="itemfour"></div>
                 <div class="col-lg-6 column">
-                    <img src="Images/WallPlants.jpg" alt="Shot of wallplants covering an open door on a stoney garden path" class="itemimage">
+                    <img src="Images/WallPlants.jpg" alt="Shot of wallplants covering an open door on a stoney garden path" class="itemimage" id="wallplants_IMG">
                 </div>
-                <div class="col-lg-6 column">
+                <div class="col-lg-6 column" id="wallplants_TXT">
                     <h1>Wall Plants</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -107,32 +111,33 @@
             </div>
             <div class="row"> <!--row8-->
                 <div id="itemfive"></div>
-                <div class="col-lg-6 column">
+                <div class="col-lg-6 column" id="groundsmaintenance_TXT">
                     <h1>Grounds Maintenance</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="col-lg-6 column">
-                    <img src="Images/GroundMaintainence.jpg" alt="Close up of a pair of hands planting a small plant" class="itemimage">
+                    <img src="Images/GroundMaintainence.jpg" alt="Close up of a pair of hands planting a small plant" class="itemimage" id="groundsmaintenance_IMG">
                 </div>
             </div>
             <div class="row"> <!--row9-->
                 <div id="itemsix"></div>
                 <div class="col-lg-6 column">
-                    <img src="Images/ChristmasTree.jpg" alt="Close of lights on a Christmas Tree" class="itemimage">
+                    <img src="Images/ChristmasTree.jpg" alt="Close of lights on a Christmas Tree" class="itemimage" id="christmastrees_IMG">
                 </div>
-                <div class="col-lg-6 column">
+                <div class="col-lg-6 column" id="christmastrees_TXT">
                     <h1>Christmas Trees</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
-            <div class="row" id="footer"> <!--row10-->
-                <div class="col-lg-12 column header">
+            <div class="row" id="footer"> <!--footer-->
+                <div class="col-lg-12 column">
                     <h3>Botanicals Shop Ltd 2023</h3>
                 </div>
             </div>
         </div>
     </div>
+    <script type="module" src="script.js"></script>
     </body>
 </html>

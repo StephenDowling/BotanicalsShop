@@ -12,15 +12,10 @@ body{
     margin:0%;
     padding:0;
 }
-
 .column{
     justify-content:space-around;
     text-align:center;
     margin-top:80px;
-}
-.header{
-    color:white;
-    text-align:center;
 }
 #logo{
     border-radius:5px;
@@ -37,6 +32,7 @@ body{
     top:0;
     padding-bottom:5px;
     z-index:1;
+    justify-content: space-around;
 }
 .navbaritem{
     list-style-type: none;
@@ -62,24 +58,20 @@ body{
 }
 .titlecard{
     background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    opacity:0.8;    
+    opacity:0.9;    
     color:white;
     text-align:center;
     padding:20px;
     border-radius:5px;
 }
-#table_of_contents{
-    border:1px solid black;
-    color:white;
-    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    opacity:0.8; 
-    border-radius:5px;  
-}
 li a{
     text-decoration: none;
   }
 #navbar li a:hover {
-    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background: #aae3bb;
+	color: black;
+    opacity: 0.9;
+    transition: 0.3s;
   }
 .dropdown-menu li a:hover{
     color:orange;
@@ -94,7 +86,8 @@ a{
     padding:10px;
 }
 a:hover{
-    color:orange;
+    color: #aae3bb;
+    opacity: 0.9;
 }
 h1{
     text-decoration: bold;
@@ -138,15 +131,79 @@ input[type=text], select, textarea{
 }
 input[type=submit]{
     background-color:white;
-    color:green;
+    color: green;
     border-radius:5px;
 }
 input[type=submit]:hover{
-    background-color:orange;
+    background-color: #aae3bb;
+    color:black;
+    opacity: 0.9;
+    transition: 0.3s;
 }
 img{
     border-radius:5px;
 }
 .itemimage{
     width:100%;
+    min-height:600px;
+}
+#map {
+    height: 100%;
+    width:45%;
+  }
+/* mobile phones or devices smaller than 900 px */
+@media only screen and (max-width: 900px){
+    #navbar{
+        display: flex;
+		justify-content:space-evenly;
+		width: 100%;
+		flex-wrap: wrap;
+    }
+    #logo{
+        max-height:75px;
+        
+    }
+    .itemimage{
+        max-height:100px;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .column{
+        display:flex;
+        flex-direction: column;
+    }
+    #plantcare_IMG{
+        display:none;
+    }
+    #plantbenefits_TXT{
+        order:1;
+    }
+    #plantbenefits_IMG{
+        order:2;
+    }
+    #outdoorplants_TXT{
+        order:3;
+    }
+    #outdoorplants_IMG{
+        order:4;
+    }
+    #indoorplants_IMG{
+        order:5;
+    }
+    #indoorplants_TXT{
+        order:6;
+    }
+    #groundsmaintenance_IMG{
+        order:7;
+    }
+    #groundsmaintenance_TXT{
+        order:8;
+    }
+    #christmastrees_IMG{
+        order:9;
+    }
+    #christmastrees_TXT{
+        order:10;
+    }
 }
