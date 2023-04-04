@@ -18,7 +18,7 @@
                 <ul>
                     <li class="navbaritem"><a href="#">Home</a></li>
                     <li class="navbaritem"><a href="#">About Us</a></li>
-                    <li class="navbaritem"><a href="#">Plant Care</a></li>
+                    <li class="navbaritem"><a href="../index.html">Plant Care</a></li>
                     <li class="navbaritem"><a href="ContactUs/index.html">Contact Us</a></li>
                     <div class="navbaritem dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,13 +49,13 @@
             <div>
                 <div class="row"> <!--row3-->
                     <div class="col-lg-6 column titlecard" id="contactform">
-                        <form>
-                            <label for="name">Your first name</label>
+                        <form name="contactusform" onsubmit="validateName(); validateEmail()">
+                            <label for="name">First name</label>
                             <input type="text" id="fname" placeholder="Please enter your first name here"><br>
-                            <label for="name">Your last name</label>
+                            <label for="name">Last name</label>
                             <input type="text" id="lname" placeholder="Please enter your last name here"><br>
-                            <label for="email">Your email</label>
-                            <input type="text" id="email" placeholder="Please enter your email address here"><br>
+                            <label for="email">Email address</label>
+                            <input type="text" id="email" name="email" placeholder="Please enter your email address here"><br>
                             <label for="country">Country</label>
                             <select id="country" name="country">
                                 <option value="Ireland">Ireland</option>
@@ -66,10 +66,10 @@
                             </select>
                             <br>
                             <label for="query">Your query</label>
-                            <textarea id="query" placeholder="Please enter your query here"></textarea><br>
-                            <label for="query">Do you want to receive information about our latest offers?</label>
+                            <textarea id="query" placeholder="Please enter your query here" required></textarea><br>
+                            <label for="offers">Do you want to receive information about our latest offers?</label>
                             <input type="checkbox" id="offers" value="Subscribed to offers"><br>
-                            <input type="submit" id="Submit" value="Submit">
+                            <input type="submit" id="Submit" value="Submit" onclick="ValidateEmail(document.contactusform.email)">
                         </form>
                     </div>
                     <div class="col-lg-6 column" id="map">
