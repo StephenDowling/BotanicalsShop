@@ -151,8 +151,11 @@ img{
     height: 100%;
     width:45%;
   }
+#moreTextOne{
+    display:none;
+  }
 /* mobile phones or devices smaller than 900 px */
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 990px){
     #navbar{
         display: flex;
 		justify-content:space-evenly;
@@ -160,8 +163,9 @@ img{
 		flex-wrap: wrap;
     }
     #logo{
-        max-height:75px;
-        
+        margin:auto;
+        height:80%;
+        width:50%;
     }
     .itemimage{
         max-height:100px;
