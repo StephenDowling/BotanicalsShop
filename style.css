@@ -22,6 +22,9 @@ body{
     float:left;
     
 }
+p{
+    font-size:80%;
+}
 #navbar{
     text-align:center;
     vertical-align: middle;
