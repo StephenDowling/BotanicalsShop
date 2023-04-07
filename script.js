@@ -12,7 +12,7 @@ function toggleText(){
     if (dots.style.display === "none") {
         showMoreText.style.display = "none";
         dots.style.display = "inline";
-        buttonText.innerHTML = "Show more";
+        buttonText.innerHTML = "Click to view list of benefits";
     }
     else {
         showMoreText.style.display = "inline";

@@ -19,7 +19,8 @@ body{
 }
 #logo{
     border-radius:5px;
-    background:#206040;
+    float:left;
+    
 }
 #navbar{
     text-align:center;
@@ -27,7 +28,6 @@ body{
     padding-top:20px;
     background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); 
     width:100%;
-    margin-top:30px;
     position: sticky;
     top:0;
     padding-bottom:5px;
@@ -42,27 +42,13 @@ body{
     font-size:25px;
     border-radius:5px;
 }
-.dropdown-menu{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border-radius:2px;
-}
-#dropdownMenuLink{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    font-size:25px;
-    border-radius:5px;
-}
 .titlecard{
-    background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    opacity:0.9;    
+    background: #206040;   
     color:white;
     text-align:center;
     padding:20px;
     border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 li a{
     text-decoration: none;
@@ -73,9 +59,6 @@ li a{
     opacity: 0.9;
     transition: 0.3s;
   }
-.dropdown-menu li a:hover{
-    color:orange;
-}
 .navboxitem{
     text-align: left;
     font-size: large;
@@ -103,20 +86,61 @@ h1{
     width:100%;
     min-width:100%;
 }
-#footer{
-    text-align: center;
-    justify-content: space-around; 
-    min-height:100px;
+.divider{
+    margin-bottom:20px;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
     background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    opacity:0.8; 
-    vertical-align: middle;
-    margin-top:100px;
-    padding-bottom:50px;
+    height: auto;
+    width: 100%;
+    color:white;
+}
+.footerRow {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+.footerBox {
+    background: #206040;
+    width: 25.7%;
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 13px 0px 13px;
+    border-color: black;
+}
+.footerBox2 {
+    background: #206040;
+    width: 25.8%;
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: black;
+}
+.copyright {
+    display: flex;
+    background: #206040;
+    width: 80%;
+    padding: 5px;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0px 13px 0px 13px;
+    border-color: black;
+    margin-top: 10px;
 }
 #contactform{
     text-align:left;
     border-radius:5px;
     padding:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 input[type=text], select, textarea{
     width:100%;
@@ -131,7 +155,7 @@ input[type=text], select, textarea{
 }
 input[type=submit]{
     background-color:white;
-    color: green;
+    color: #206040;
     border-radius:5px;
 }
 input[type=submit]:hover{
@@ -177,37 +201,115 @@ img{
         display:flex;
         flex-direction: column;
     }
+    #footer {
+		display: flex;
+		flex-direction: column;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-image: url(Images/PlantCarebackground.jpg);
+		height: auto;
+		width: 100%;
+	}
+    .footerRow {
+		display: flex;
+		flex-direction: column;
+		padding: 5px;
+		justify-content: space-evenly;
+		height: auto;
+		width: 100%;
+	}
+    .footerBox {
+		background: #206040;
+		width: 80%;
+		padding: 10px;
+		text-align: center;
+		border-style: solid;
+		border-width: 0px 13px 0px 13px;
+		border-color: black;
+		margin: auto;
+	}
+    .footerBox2 {
+		background: #26734d;
+		width: 80%;
+		padding: 10px;
+		text-align: center;
+		border-style: solid;
+		border-width: 0px 13px 0px 13px;
+		border-color: black;
+		margin: auto;
+	}
+    .copyright {
+		display: flex;
+		background: #26734d;
+		width: 80%;
+		padding: 10px;
+		justify-content: center;
+		text-align: center;
+		border-style: solid;
+		border-width: 0px 13px 0px 13px;
+		border-color: black;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+	}
     #plantcare_IMG{
         display:none;
     }
-    #plantbenefits_TXT{
+    #itemone{
         order:1;
+    }
+    #plantbenefits_TXT{
+        order:3;
     }
     #plantbenefits_IMG{
         order:2;
     }
-    #outdoorplants_TXT{
-        order:3;
-    }
-    #outdoorplants_IMG{
+    #itemtwo{
         order:4;
     }
-    #indoorplants_IMG{
-        order:5;
-    }
-    #indoorplants_TXT{
+    #outdoorplants_TXT{
         order:6;
     }
-    #groundsmaintenance_IMG{
+    #outdoorplants_IMG{
+        order:5;
+    }
+    #itemthree{
         order:7;
     }
-    #groundsmaintenance_TXT{
-        order:8;
-    }
-    #christmastrees_IMG{
+    #indoorplants_IMG{
         order:9;
     }
-    #christmastrees_TXT{
+    #indoorplants_TXT{
+        order:8;
+    }
+    #itemfour{
         order:10;
+    }
+    #wallplants_IMG{
+        order:12;
+    }
+    #wallplants_TXT{
+        order:11;
+    }
+    #groundsmaintenance_TXT{
+        order:13;
+    }
+    #itemfive{
+        order:15;
+    }
+    #groundsmaintenance_IMG{
+        order:14;
+    }
+    #groundsmaintenance_TXT{
+        order:16;
+    }
+    #itemsix{
+        order:17;
+    }
+    #waterplants_IMG{
+        order:19;
+    }
+    #waterplants_TXT{
+        order:18;
     }
 }

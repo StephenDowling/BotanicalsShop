@@ -18,21 +18,13 @@
     <body>
     <div class="container" id="navbarcontainer"> <!--Overall container-->
         <div id="navbar"> <!--Sticky navbar-->
+            <img src="Images/Logo/logo4.png" alt="Botanicals Shop logo" id="logo" a href="#">
             <ul>
                 <li class="navbaritem"><a href="#">Home</a></li>
                 <li class="navbaritem"><a href="#">About Us</a></li>
                 <li class="navbaritem"><a href="#">Plant Care</a></li>
                 <li class="navbaritem"><a href="ContactUs/index.html">Contact Us</a></li>
-                <div class="navbaritem dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                        Shop
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Indoor Plants</a></li>
-                      <li><a class="dropdown-item" href="#">Outdoor Plants</a></li>
-                      <li><a class="dropdown-item" href="#">Plant Accessories</a></li>
-                    </ul>
-                </div>
+                <li class="navbaritem"><a href="#">Shop</a></li>
                 <li class="navbaritem"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
 				<li class="navbaritem"><a href="#"><i class="fa fa-fw fa-shopping-basket"></i></a></li>
 				<li class="navbaritem"><a href="#"><i class="fa fa-fw fa-user"></i></a></li>
@@ -40,16 +32,11 @@
         </div>
         <div class="container"> <!--Container for everything else-->
             <div class="row"> <!--row1-->
-                <div class="col-lg-12 column">
-                    <img src="Images/Logo/logo4.png" alt="Botanicals Shop logo" id="logo">
-                </div>
-            </div>
-            <div class="row"> <!--row2-->
                 <div class="col-lg-12 column titlecard">
                     <h1>Plant Care</h1>
                 </div>
             </div>
-            <div class="row"> <!--row3-->
+            <div class="row"> <!--row2-->
                 <div class="col-lg-6 column titlecard">
                     <h1>What can we help you with?</h1>
                     <ol>
@@ -58,29 +45,36 @@
                         <li class="navboxitem"><a href="#itemthree">Indoor Plants</a></li>
                         <li class="navboxitem"><a href="#itemfour">Wall Plants</a></li>
                         <li class="navboxitem"><a href="#itemfive">Grounds Maintenance</a></li>
-                        <li class="navboxitem"><a href="#itemsix">Christmas Trees</a></li>
+                        <li class="navboxitem"><a href="#itemsix">Water Plants</a></li>
                     </ol>
                 </div>
                 <div class="col-lg-6 column">
                     <img src="Images/PlantCare.jpg" alt="A Person Watering a Newly Potted Plant" class="itemimage" id="plantcare_IMG">
                 </div>
             </div>
-            <div class="row"> <!--row4-->
-                <div id="itemone"></div>
+            <div class="row"> <!--row3-->
+                <div class="divider"id="itemone"></div>
                 <div class="col-lg-6 column" id="plantbenefits_TXT">
                     <h1>What are the benefits of plants?</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h3>Plants may help reduce stress levels</h3>
+                        <p>A study published in the Journal of Physiological Anthropology found that plants in your home or office can make you feel more comfortable, soothed, and natural. In the study, participants were given two different tasks: repotting a houseplant or completing a short computer-based task. After each task, researchers measured the biological factors associated with stress, including heart rate and blood pressure. They found that the indoor gardening task lowered the stress response in participants. The computer task, on the other hand, caused a spike in heart rate and blood pressure, even though the study participants were young men well-accustomed to computerized work. Researchers concluded that working with plants could reduce both physiological and psychological stress.</p>
+                        <h3>Working with plants can be therapeutic</h3>
+                        <p>For people experiencing the symptoms of mental illness, indoor gardening can be helpful. Researchers have used horticultural therapy to increase feelings of well-being among people with depression, anxiety, dementia, and other conditions. Although horticultural therapy has been around for centuries, it has found a modern expression: Medical clinics in Manchester, England are now "prescribing" potted plants to patients with depression or anxiety symptoms.</p>
                     <span id="dots">...</span>
-                    <span id="moreTextOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-                    <button onclick="toggleText()" id="textButtonOne">Show more</button>
+                    <span id="moreTextOne">
+                        <h3>Plants may help you recover from illness faster</h3>
+                        <p>Being able to look at plants and flowers may speed your recovery from an illness, injury, or surgery. A 2002 review of the research revealed that people recuperating from several kinds of surgery needed less pain medication and had shorter hospital stays than people who weren't looking at greenery during their recovery periods. It's important to note that most research focuses on plants and natural scenery in hospital settings rather than at home.</p>
+                        <h3>Real plants may sharpen your attention</h3>
+                        <p>Sorry, plastic plants won't help you pass your exams. In a small study involving 23 participants, researchers put students in a classroom with either a fake plant, a real one, a photograph of a plant, or no plant at all. Brain scans of the participants showed that the students who studied with real, live plants in the classroom were more attentive and better able to concentrate than students in the other groups</p>
+                    </span>
+                    <button onclick="toggleText()" id="textButtonOne">Click to view list of benefits</button>
                 </div>
                 <div class="col-lg-6 column">
                     <img src="Images/PlantBenefits.jpg" alt="Hand reaching into a bunch of daisies growing from the earth" class="itemimage" id="plantbenefits_IMG">
                 </div>
             </div>
-            <div class="row"> <!--row5-->
-                <div id="itemtwo"></div>
+            <div class="row"> <!--row4-->
+                <div class="divider" id="itemtwo"></div>
                 <div class="col-lg-6 column" >
                     <img src="Images/OutdoorPlants.jpg" alt="Rows of potted plants on a table" class="itemimage" id="outdoorplants_IMG">
                 </div>
@@ -90,8 +84,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
-            <div class="row"> <!--row6-->
-                <div id="itemthree"></div>
+            <div class="row"> <!--row5-->
+                <div class="divider" id="itemthree"></div>
                 <div class="col-lg-6 column" id="indoorplants_TXT">
                     <h1>Indoor Plants</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -101,8 +95,8 @@
                     <img src="Images/IndoorPlants.jpg" alt="Indoor plants beneath a white curtain" class="itemimage" id="indoorplants_IMG">
                 </div>
             </div>
-            <div class="row"> <!--row7-->
-                <div id="itemfour"></div>
+            <div class="row"> <!--row6-->
+                <div class="divider" id="itemfour"></div>
                 <div class="col-lg-6 column">
                     <img src="Images/WallPlants.jpg" alt="Shot of wallplants covering an open door on a stoney garden path" class="itemimage" id="wallplants_IMG">
                 </div>
@@ -112,8 +106,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
-            <div class="row"> <!--row8-->
-                <div id="itemfive"></div>
+            <div class="row"> <!--row7-->
+                <div class="divider" id="itemfive"></div>
                 <div class="col-lg-6 column" id="groundsmaintenance_TXT">
                     <h1>Grounds Maintenance</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -123,23 +117,53 @@
                     <img src="Images/GroundMaintainence.jpg" alt="Close up of a pair of hands planting a small plant" class="itemimage" id="groundsmaintenance_IMG">
                 </div>
             </div>
-            <div class="row"> <!--row9-->
-                <div id="itemsix"></div>
+            <div class="row"> <!--row8-->
+                <div class="divider" id="itemsix"></div>
                 <div class="col-lg-6 column">
-                    <img src="Images/ChristmasTree.jpg" alt="Close of lights on a Christmas Tree" class="itemimage" id="christmastrees_IMG">
+                    <img src="Images/WaterPlants.jpeg" alt="Photo of water lillies in a pond with a goldfish" class="itemimage" id="waterplants_IMG">
                 </div>
-                <div class="col-lg-6 column" id="christmastrees_TXT">
-                    <h1>Christmas Trees</h1>
+                <div class="col-lg-6 column" id="waterplants_TXT">
+                    <h1>Water Plants</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-            <div class="row" id="footer"> <!--footer-->
-                <div class="col-lg-12 column">
-                    <h3>Botanicals Shop Ltd 2023</h3>
                 </div>
             </div>
         </div>
+            <div class="divider"></div>
+            <div id="footer"> <!--footer-->
+                <div class="footerRow">
+                    <div class="footerBox">
+                        <h3>Find us on our socials!</h3>
+                        <a target="_blank" href="https://twitter.com/"><img class="socialImg" src="images/twitterlogo.png" alt="Twitter icon"></a>
+                        <a target="_blank" href="https://instagram.com/"><img class="socialImg" src="images/instagramlogo.png" alt="Instagram icon"></a>
+                        <a target="_blank" href="https://snapchat.com/"><img class="socialImg" src="images/snapchatlogo.png" alt="Snapchat icon"></a>
+                        <a target="_blank" href="https://facebook.com/"><img class="socialImg" src="images/facebooklogo.png" alt="Facebook icon"></a>
+                        <p><a href="ContactUs/ContactUs.html">Stores near you</a></p>
+                    </div>
+                    <div class="footerBox2">
+                        <h3>Have any questions?</h3>
+                        <a href="ContactUs/ContactUs.html"><p>Contact Us</p></a>
+                        <p>Phone: 087 1234 567<br>
+                        Email: info@botanicals.ie</p>
+                    </div>
+                    <div class="footerBox">
+                        
+                        <h3>Useful Resources.</h3>
+                        <a target="_blank" href="https://www.gardenersworld.com/how-to/grow-plants/gardening-for-beginners-10-tips/"><p>Beginner Tips</a><br>
+                        <a target="_blank" href="https://gardentutor.com/">Gardening Courses</a><br>
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/Law">Legal Information</a><br>
+                        <a href="https://www.pexels.com/">Image Sources</p></a>
+                    </div>    
+                </div>
+                <div class="footerRow">
+                    <div class="copyright">
+                        <p>Botanicals.io is co-owned by three Software Development students.<br class="mobileBreak">
+                        All images used do not belong to us. Except the logo!<br><br>
+                        <img class="copyrightLogo" src="images/copyright.png" alt="Copyright symbol">Copyright Botanicals 2023. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        
     </div>
     <script src="script.js"></script>
     </body>
