@@ -3,6 +3,7 @@ style.css Plant Care
 S Dowling x21189994@student.ncirl.ie
 28 02 2023
 */
+
 html{
     scroll-behavior: smooth;
 }
@@ -178,7 +179,7 @@ img{
     border-radius:5px;
 }
 .itemimage{
-    width:100%;
+    min-width:100%;
     min-height:600px;
 }
 #map {
@@ -198,8 +199,12 @@ img{
     }
     #logo{
         margin:auto;
-        height:80%;
-        width:50%;
+        height:30%;
+        width:40%;
+    }
+    .headings{
+        margin-top:-10px;
+        margin-bottom:10px;
     }
     .itemimage{
         max-height:100px;
