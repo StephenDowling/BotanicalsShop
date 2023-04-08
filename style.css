@@ -23,7 +23,7 @@ body{
     
 }
 p{
-    font-size:80%;
+    font-size:85%;
 }
 #navbar{
     text-align:center;
@@ -42,7 +42,7 @@ p{
     margin: 0;
     padding: 0;
     display: inline;
-    font-size:25px;
+    font-size:30px;
     border-radius:5px;
 }
 .titlecard{
@@ -50,6 +50,12 @@ p{
     color:white;
     text-align:center;
     padding:20px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.headings{
+    color: #206040;  
+    text-align:center;
     border-radius:5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -64,7 +70,8 @@ li a{
   }
 .navboxitem{
     text-align: left;
-    font-size: large;
+    font-size: 32px;
+    justify-content: space-between;
 }
 a{
     color:white;
