@@ -3,7 +3,6 @@ script.js
 S Dowling x21189994@student.ncirl.ie
 04 04 2023
 */
-
 function toggleText(){
     var dots=document.getElementById("dots");
     var showMoreText=document.getElementById("moreTextOne");
@@ -20,8 +19,6 @@ function toggleText(){
         buttonText.innerHTML = "Show less";
     }
 }
-
-
 function validateName(){
     let fn=document.forms["contactusform"]["fname"].value;
     if(fn==""){
@@ -29,7 +26,6 @@ function validateName(){
         return false;
     }
 }
-
 function ValidateEmail(email){
     var emailval = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if(email.value.match(emailval)){
