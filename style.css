@@ -196,7 +196,6 @@ img{
 		width: 100%;
 		flex-wrap: wrap;
         max-height:160px;
-        position:absolute;
     }
     .navbaritem{
         list-style-type: none;
