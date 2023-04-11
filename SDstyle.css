@@ -1,5 +1,5 @@
 /*
-style.css Plant Care
+SDstyle.css 
 S Dowling x21189994@student.ncirl.ie
 28 02 2023
 */
@@ -188,7 +188,7 @@ img{
 #moreTextOne{
     display:none;
   }
-/* mobile phones or devices smaller than 900 px */
+/* mobile phones or devices smaller than 990 px */
 @media only screen and (max-width: 990px){
     #navbar{
         display: flex;
