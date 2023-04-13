@@ -1,27 +1,23 @@
 <!-- 
-
+Author: Wiktoria Glogowska
 -->
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <!-- Load an icon library -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<link rel="stylesheet" href="style.css">
-        <title>
-            Botanicals Plant Shop
-        </title>
-		<meta name = "description" content="Botanical plant shop is your place to find a plant that matches you. We offers quality potted, at competative prices.
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="wg_style.css">
+    <title> Botanicals Plant Shop </title>
+    <meta name="description" content="Botanical plant shop is your place to find a plant that matches you. We offers quality potted, at competative prices.
 		Our services include online shopping, quick delivery, in-store exclusive range and guideance on plant care. ">
-		<meta name = "description" keywords= "botanicals plant shop, plant shop,potted plants shop, plant ecommerce, horticulture shop, plant guideance">
-    </head>
-    <body>
+    <meta name="description" keywords="botanicals plant shop, plant shop,potted plants shop, plant ecommerce, horticulture shop, plant guideance">
+</head>
 
-		<!--My old navbar-->
-		<!--
+<body>
+    <!--My old navbar-->
+    <!--
 		<div class="row navbar_row" > 
 			<div class="col-lg-2">
 				<img src="Images/logo.jpg" alt="Botanicals Shop logo">
@@ -48,67 +44,52 @@
 
 		</div>		
 		-->
-		<!--My old navbar-->
-
-		<!--Stephens navbar-->
-	<div class="container" id="navbarcontainer"> <!--Overall container START-->
-			<div id="navbar"> <!--Sticky navbar START-->
-				<img src="Images/Logo/logo4.png" alt="Botanicals Shop logo" id="logo" a href="index.html">
-				<div>
-					<ul>
-						<li class="navbaritem"><a href="#">Home</a></li>
-						<li class="navbaritem"><a href="#">About Us</a></li>
-						<li class="navbaritem"><a href="#">Plant Care</a></li>
-						<li class="navbaritem"><a href="ContactUs/index.html">Contact Us</a></li>
-						<li class="navbaritem"><a href="#">Shop</a></li>
-					</ul>
-				</div>
-				<div>
-					<ul>
-						<li class="navbaritem"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
-						<li class="navbaritem"><a href="#"><i class="fa fa-fw fa-shopping-basket"></i></a></li>
-						<li class="navbaritem"><a href="#"><i class="fa fa-fw fa-user"></i></a></li>
-					</ul>
-
-				</div>
-			</div><!--Sticky navbar END-->
-		
-		<!--Stephens navbar-->
-	
-					<!--This will be the start of place for modal pop up window-->
-
-		<div id="my-popup" class="modal">
-			<div class="pop_up_section" id = "section_1" >
-				
-				<button class="btn-close" onclick="ClosePopUp()">X</button>
-				<h1 id = "customer_greeting">Dear Customer!</h1>
-				
-			</div>
-			<div class="pop_up_section" id = "section_2" >
-				<h3>Stay in touch</h3>
-				<p>
-					Please subscribe to our newsletter and enjoy 10% discount!
-				</p>
-			</div>
-			<div class="pop_up_section"  id = "section_3" >
-				<input type="email" id="email" placeholder="abcd@gmail.com" />
-				<button class="btn"  onclick="ValidateEmail(document.getElementById('email'))">Submit</button>
-			</div>
-			<div class="pop_up_section" id = "section_4" style="display: none ;">
-				<h3>Thank you for your subscription!</h3>
-				<div class="pop_up_section">
-					<p id = "thank_you_paragraph">
-						Enjoy your 10% discount which we has been send to 
-					</p>
-				</div>
-			</div>
-			
-		</div>
-		<div class="overlay hidden"></div>
-		<!--This will be the end of place for modal pop up window-->
-
+    <!--My old navbar-->
+    <!--Stephens navbar-->
+    <div class="container" id="navbarcontainer">
+        <!--Overall container START-->
+        <div id="navbar">
+            <!--Sticky navbar START--> <img src="Images/Logo/logo4.png" alt="Botanicals Shop logo" id="logo" a href="index.html">
+            <div>
+                <ul>
+                    <li class="navbaritem"><a href="#">Home</a></li>
+                    <li class="navbaritem"><a href="AboutUs/about_us.html">About Us</a></li>
+                    <li class="navbaritem"><a href="#">Plant Care</a></li>
+                    <li class="navbaritem"><a href="ContactUs/index.html">Contact Us</a></li>
+                    <li class="navbaritem"><a href="#">Shop</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="navbaritem"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
+                    <li class="navbaritem"><a href="#"><i class="fa fa-fw fa-shopping-basket"></i></a></li>
+                    <li class="navbaritem"><a href="#"><i class="fa fa-fw fa-user"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Sticky navbar END-->
+        <!--Stephens navbar-->
+        <!--This will be the start of place for modal pop up window-->
+        <div id="my-popup" class="modal">
+            <div class="pop_up_section" id="section_1"> <button class="btn-close" onclick="ClosePopUp()">X</button>
+                <h1 id="customer_greeting">Dear Customer!</h1>
+            </div>
+            <div class="pop_up_section" id="section_2">
+                <h3>Stay in touch</h3>
+                <p> Please subscribe to our newsletter and enjoy 10% discount! </p>
+            </div>
+            <div class="pop_up_section" id="section_3"> <input type="email" id="email" placeholder="abcd@gmail.com" /> <button class="btn" onclick="ValidateEmail(document.getElementById('email'))">Submit</button> </div>
+            <div class="pop_up_section" id="section_4" style="display: none ;">
+                <h3>Thank you for your subscription!</h3>
+                <div class="pop_up_section">
+                    <p id="thank_you_paragraph"> Enjoy your 10% discount which we has been send to </p>
+                </div>
+            </div>
+        </div>
+        <div class="overlay hidden"></div>
+        <!--This will be the end of place for modal pop up window-->
         <div class="container">
-			<!--
+            <!--
             <div class="row"> 
                 <div class="col-lg-12">
 				    <div class="header" style = "font-family: Helvetica, cursive;">
@@ -117,16 +98,16 @@
                 </div>
             </div>
 			-->
-			<div class="row box"> <!--row1 Titlecard-->
-				<div class="col-lg-12 page_name_column titlecard">
-					<h1>Home</h1>
-				</div>
-			</div>
-
-			<div class="row"> <!--row4-->
-				<!--row4 Carousel--> 
-
-					 <!-- 
+            <div class="row box">
+                <!--row1 Titlecard-->
+                <div class="col-lg-12 page_name_column titlecard">
+                    <h1>Home</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!--row4-->
+                <!--row4 Carousel-->
+                <!-- 
 					<div class="w3-content w3-display-container" style="max-width:2000px">
 					  <img class="mySlides" src="Images/img1.jpg" style="width:100%">
 					  <img class="mySlides" src="Images/img2.jpg" style="width:100%">
@@ -140,193 +121,150 @@
 					  </div>
 					</div>
 					 -->
-					 <div class="slideshow-container">
-
-						<div class="mySlides fade">
-						  <div class="numbertext"></div>
-						  <img src="Images/img1.jpg" style="width:100%">
-						  <div class="text">We plant</div>
-						</div>
-						
-						<div class="mySlides fade">
-						  <div class="numbertext"></div>
-						  <img src="Images/img2.jpg" style="width:100%">
-						  <div class="text">We sell</div>
-						</div>
-						
-						<div class="mySlides fade">
-						  <div class="numbertext"></div>
-						  <img src="Images/img3.jpg" style="width:100%">
-						  <div class="text">You keep growing</div>
-						</div>
-					</div>
-					<br>
-					
-					<div style="text-align:center">
-					  <span class="dot"></span> 
-					  <span class="dot"></span> 
-					  <span class="dot"></span> 
-					</div>	
-
-			</div>
-
-			<div class="shop_now_section box">
-				<button class ="shop_now_button" onclick="window.location.href='https://google.com';">
-					Shop Now
-				</button>
-			</div>
-
-
-			
-			<div class="row box"> <!--row7 Tiles view example of plants line one or reviews? or instagram photos of customers or other sale items or inspiration for arangataions-->
-				<div class="col-lg-12 show">
-						<div class = "subheader"	>
-							<h3>Chose your type of plant:</h3>
-						</div>
-					  <div class="column">
-						<div class="content">
-							<img src="Images/hard_to_kill_plants.jpg" alt="Hard to kill plants" style="width:100%">
-							<div class ="plant_class_description">
-								<h3>Hard to kill plants</h3>
-								<p>For the plant-resistant...</p>
-							</div>
-						</div>
-					  </div>
-					  <div class="column">
-						<div class="content">
-							<img src="Images/pet_friendly_plants.jpg" alt="Pet-friendly plants" style="width:100%">
-						  	<div class ="plant_class_description">
-						  		<h3>Pet-friendly plants</h3>
-						  		<p>For the animal lovers...</p>
-							</div>
-						</div>
-					  </div>
-					  <div class="column">
-						<div class="content">
-						  	<img src="Images/rare_plants.jpg" alt="Rare plants" style="width:100%">
-						  	<div class ="plant_class_description">
-						  		<h3>Rare plants</h3>
-						  		<p>For the one-of-a-kind...</p>
-							</div>
-						</div>
-					  </div>
-					  <div class="column">
-						<div class="content">
-						  <img src="Images/new_arrivals.jpg" alt="New-arrival plants" style="width:100%">
-						  <div class ="plant_class_description">
-						  	<h3>New-arrival plants</h3>
-						  	<p>For the trendy ones..</p>
-						  </div>
-						</div>
-					  </div>
-                </div>
-
-				
-				<div class="col-lg-12 show"> <!--Stephens Categories-->
-				  <div class="column">
-					<div class="content">
-						<img src="Images/IndoorPlants.jpg" alt="Indoor plants" style="width:100%">
-						<div class ="plant_class_description">
-							<h3>Indoor plants</h3>
-							<p>For the homebodies...</p>
-						</div>
-					</div>
-				  </div>
-				  <div class="column">
-					<div class="content">
-						<img src="Images/OutdoorPlants.jpg" alt="Outdoor plants" style="width:100%">
-						  <div class ="plant_class_description">
-							  <h3>Outdoor plants</h3>
-							  <p>For the outdoorsy ones...</p>
-						</div>
-					</div>
-				  </div>
-				  <div class="column">
-					<div class="content">
-						  <img src="Images/WallPlants.jpg" alt="Wall plants" style="width:100%">
-						  <div class ="plant_class_description">
-							  <h3>Wall plants</h3>
-							  <p>For somebody-to-lean-on...</p>
-						</div>
-					</div>
-				  </div>
-				  <div class="column">
-					<div class="content">
-					  <img src="Images/WaterPlants.jpeg" alt="Christmas trees" style="width:100%">
-					  <div class ="plant_class_description">
-						  <h3>Water plants</h3>
-						  <p>Because who doesn't like a lily...</p>
-					  </div>
-					</div>
-				  </div>
-			</div>
-
-
-
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div> <img src="Images/img1.jpg" style="width:100%">
+                        <div class="text">We plant</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div> <img src="Images/img2.jpg" style="width:100%">
+                        <div class="text">We sell</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div> <img src="Images/img3.jpg" style="width:100%">
+                        <div class="text">You keep growing</div>
+                    </div>
+                </div> <br>
+                <div style="text-align:center"> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span> </div>
             </div>
-
-
-			<div class="row box"> <!--row7 Tiles view example of plants line one or reviews? or instagram photos of customers or other sale items or inspiration for arangataions-->
-				<div class="col-lg-12">
-						<div>
-							<div class="subheader">
-								<h3>Find your plant match:</h3>
-							</div>
-							<div id = "quiz_card">
-								<div id="quiz_description">
-									<p>Share a little bit out yourself and we will help you to find your perfect plant!<p>
-									<button class ="shop_now_button" onclick="window.location.href='https://www.lovethegarden.com/uk-en/article/whats-your-plant-personality';">
-										Take the quiz
-									</button>
-								</div>
-								<div class="quiz_image"></div>
-									<img src="Images/quiz_2.jpg" alt="Quiz" style="width:100%">
-								</div>
-							</div>
-						</div>
-				</div>
-			</div>
-
-			<div class=""> <!--row7 Tiles view example of plants line one or reviews? or instagram photos of customers or other sale items or inspiration for arangataions-->
-				<div class="col-lg-12">
-					<div class="info_section  box">
-						<div class="info_column">
-							<img src="Images/shipping_icon.jpg" alt="Shipping">
-							<div class="plant_class_description">
-								<h3>Free Standard Shipping</h3>
-							</div>
-							<div class="plant_class_description">
-								<p>Enjoy free standard shipping on all plants and planters. Orders are shipped via UPS carbon neutral shipping, keeping our carbon footprint as small as possible.</p>
-							</div>
-						</div >
-						<div class="info_column">
-							<img src="Images/satisfaction_icon.png" alt="Shipping">
-							<div class="plant_class_description">
-								<h3>Happiness Guarantee</h3>
-							</div>
-							<div class="plant_class_description">
-								<p>Our team preps, prunes, & carefully packs every order—meaning lots of care goes into every step. If your plant arrives damaged or unhealthy, we replace it for free.</p>
-							</div>
-						</div>
-						<div class="info_column">
-							<img src="Images/workshop_icon.jpg" alt="Shipping">
-							<div class="plant_class_description">
-								<h3>Instore Workshops</h3>
-							</div>
-							<div class="plant_class_description">
-								<p>Want to get you hands dirty? Join one of our exclusive in-person sessions at our local store. For more details subscribe to our newsletter. </p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-
+            <div class="shop_now_section box"> <button class="shop_now_button" onclick="window.location.href='https://google.com';"> Shop Now </button> </div>
+            <div class="row box">
+                <!--row7 Tiles view example of plants line one or reviews? or instagram photos of customers or other sale items or inspiration for arangataions-->
+                <div class="col-lg-12 show">
+                    <div class="subheader">
+                        <h3>Chose your type of plant:</h3>
+                    </div>
+                    <div class="column">
+                        <div class="content"> <img src="Images/hard_to_kill_plants.jpg" alt="Hard to kill plants" style="width:100%">
+                            <div class="plant_class_description">
+                                <h3>Hard to kill plants</h3>
+                                <p>For the plant-resistant...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content"> <img src="Images/pet_friendly_plants.jpg" alt="Pet-friendly plants" style="width:100%">
+                            <div class="plant_class_description">
+                                <h3>Pet-friendly plants</h3>
+                                <p>For the animal lovers...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content"> <img src="Images/rare_plants.jpg" alt="Rare plants" style="width:100%">
+                            <div class="plant_class_description">
+                                <h3>Rare plants</h3>
+                                <p>For the one-of-a-kind...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content"> <img src="Images/new_arrivals.jpg" alt="New-arrival plants" style="width:100%">
+                            <div class="plant_class_description">
+                                <h3>New-arrival plants</h3>
+                                <p>For the trendy ones..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 show">
+                    <!--Stephens Categories-->
+                    <div class="column">
+                        <div class="content"> <img src="Images/IndoorPlants.jpg" alt="Indoor plants" style="width:100%">
+                            <div class="plant_class_description">
+                                <h3>Indoor plants</h3>
+                                <p>For the homebodies...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content"> <img src="Images/OutdoorPlants.jpg" alt="Outdoor plants" style="width:100%">
+                            <div class="plant_class_description">
+                                <h3>Outdoor plants</h3>
+                                <p>For the outdoorsy ones...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content"> <img src="Images/WallPlants.jpg" alt="Wall plants" style="width:100%">
+                            <div class="plant_class_description">
+                                <h3>Wall plants</h3>
+                                <p>For somebody-to-lean-on...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content"> <img src="Images/WaterPlants.jpeg" alt="Christmas trees" style="width:100%">
+                            <div class="plant_class_description">
+                                <h3>Water plants</h3>
+                                <p>Because who doesn't like a lily...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row box">
+                <!--row7 Tiles view example of plants line one or reviews? or instagram photos of customers or other sale items or inspiration for arangataions-->
+                <div class="col-lg-12">
+                    <div>
+                        <div class="subheader">
+                            <h3>Find your plant match:</h3>
+                        </div>
+                        <div id="quiz_card">
+                            <div id="quiz_description">
+                                <p>Share a little bit out yourself and we will help you to find your perfect plant!
+                                <p> <button class="shop_now_button" onclick="window.location.href='https://www.lovethegarden.com/uk-en/article/whats-your-plant-personality';"> Take the quiz </button>
+                            </div>
+                            <div class="quiz_image"></div> <img src="Images/quiz_2.jpg" alt="Quiz" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-		<!--This was my footer-->
-		<!--
+        <div class="">
+            <!--row7 Tiles view example of plants line one or reviews? or instagram photos of customers or other sale items or inspiration for arangataions-->
+            <div class="col-lg-12">
+                <div class="info_section  box">
+                    <div class="info_column"> <img src="Images/shipping_icon.jpg" alt="Shipping">
+                        <div class="plant_class_description">
+                            <h3>Free Standard Shipping</h3>
+                        </div>
+                        <div class="plant_class_description">
+                            <p>Enjoy free standard shipping on all plants and planters. Orders are shipped via UPS carbon neutral shipping, keeping our carbon footprint as small as possible.</p>
+                        </div>
+                    </div>
+                    <div class="info_column"> <img src="Images/satisfaction_icon.png" alt="Shipping">
+                        <div class="plant_class_description">
+                            <h3>Happiness Guarantee</h3>
+                        </div>
+                        <div class="plant_class_description">
+                            <p>Our team preps, prunes, & carefully packs every order—meaning lots of care goes into every step. If your plant arrives damaged or unhealthy, we replace it for free.</p>
+                        </div>
+                    </div>
+                    <div class="info_column"> <img src="Images/workshop_icon.jpg" alt="Shipping">
+                        <div class="plant_class_description">
+                            <h3>Instore Workshops</h3>
+                        </div>
+                        <div class="plant_class_description">
+                            <p>Want to get you hands dirty? Join one of our exclusive in-person sessions at our local store. For more details subscribe to our newsletter. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--This was my footer-->
+    <!--
 		<div class="footer_and_copy_rights" >
 			<div class="footer" > 
 				<div class="col-lg-2">
@@ -388,58 +326,32 @@
 			</div>
 		</div>
 		-->
-	</div> <!-- This is where navbar container ends -->
-		<div id="footer">
-		
-			<div class="footerRow">
-			
-				<div class="footerBox">
-					
-					<h3>Find us on our socials!</h3>
-					<a target="_blank" href="https://twitter.com/"><img class="socialImg" src="Images/twitterlogo.png" alt="Twitter icon"></a>
-					<a target="_blank" href="https://instagram.com/"><img class="socialImg" src="Images/instagramlogo.png" alt="Instagram icon"></a>
-					<a target="_blank" href="https://snapchat.com/"><img class="socialImg" src="Images/snapchatlogo.png" alt="Snapchat icon"></a>
-					<a target="_blank" href="https://facebook.com/"><img class="socialImg" src="Images/facebooklogo.png" alt="Facebook icon"></a>
-					<p><a href="ContactUs/ContactUs.html">Stores near you</a></p>
-					
-				</div>
-				
-				<div class="footerBox2">
-					
-					<h3>Have any questions?</h3>
-					<a href="ContactUs/ContactUs.html"><p>Contact Us</p></a>
-					<p>Phone: 087 1234 567<br>
-					Email: info@botanicals.ie</p>
-					
-				</div>
-			
-				<div class="footerBox">
-					
-					<h3>Useful Resources.</h3>
-					<a target="_blank" href="https://www.gardenersworld.com/how-to/grow-plants/gardening-for-beginners-10-tips/"><p>Beginner Tips</a><br>
-					<a target="_blank" href="https://gardentutor.com/">Gardening Courses</a><br>
-					<a target="_blank" href="https://en.wikipedia.org/wiki/Law">Legal Information</a><br>
-					<a target="_blank" href="https://www.pexels.com/">Image Sources</p></a>
-					
-				</div>
-					
-			</div>
-			
-			<div class="footerRow">
-			
-				<div class="copyright">
-			
-					<p>Botanicals.io is co-owned by three Software Development students.<br class="mobileBreak">
-					All images used do not belong to us. Except the logo!<br><br>
-					<img class="copyrightLogo" src="Images/copyright.png" alt="Copyright symbol">Copyright Botanicals 2023. All rights reserved.</p>
-					
-				</div>
-			
-			</div>
-		
-		</div>
+    </div> <!-- This is where navbar container ends -->
+    <div id="footer">
+        <div class="footerRow">
+            <div class="footerBox">
+                <h3>Find us on our socials!</h3> <a target="_blank" href="https://twitter.com/"><img class="socialImg" src="Images/twitterlogo.png" alt="Twitter icon"></a> <a target="_blank" href="https://instagram.com/"><img class="socialImg" src="Images/instagramlogo.png" alt="Instagram icon"></a> <a target="_blank" href="https://snapchat.com/"><img class="socialImg" src="Images/snapchatlogo.png" alt="Snapchat icon"></a> <a target="_blank" href="https://facebook.com/"><img class="socialImg" src="Images/facebooklogo.png" alt="Facebook icon"></a>
+                <p><a href="ContactUs/ContactUs.html">Stores near you</a></p>
+            </div>
+            <div class="footerBox2">
+                <h3>Have any questions?</h3> <a href="ContactUs/ContactUs.html">
+                    <p>Contact Us</p>
+                </a>
+                <p>Phone: 087 1234 567<br> Email: info@botanicals.ie</p>
+            </div>
+            <div class="footerBox">
+                <h3>Useful Resources.</h3> <a target="_blank" href="https://www.gardenersworld.com/how-to/grow-plants/gardening-for-beginners-10-tips/">
+                    <p>Beginner Tips
+                </a><br> <a target="_blank" href="https://gardentutor.com/">Gardening Courses</a><br> <a target="_blank" href="https://en.wikipedia.org/wiki/Law">Legal Information</a><br> <a target="_blank" href="https://www.pexels.com/">Image Sources</p></a>
+            </div>
+        </div>
+        <div class="footerRow">
+            <div class="copyright">
+                <p>Botanicals.io is co-owned by three Software Development students.<br class="mobileBreak"> All images used do not belong to us. Except the logo!<br><br> <img class="copyrightLogo" src="Images/copyright.png" alt="Copyright symbol">Copyright Botanicals 2023. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
 
-		<script src="scripts.js"></script> 
-		
-    </body>
 </html>
