@@ -1,4 +1,4 @@
-# BotanicalsProject
+# Botanicals Shop Project
 
 Project for Botanicals plant shop featuring a home page, about us page, plant care page, shop page and a contact us page 
 
