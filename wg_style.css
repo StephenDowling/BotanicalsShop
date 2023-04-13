@@ -252,7 +252,8 @@ button:hover {
 }
 
 .footer_and_copy_rights {
-  background-image: url(Images/PlantCarebackground.jpg);
+  background-image: url(Images/bgleaves.webp);
+background-image: url(../Images/bgleaves.webp);
   color: white;
 }
 
