@@ -1,0 +1,795 @@
+/*General style */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /*background-color: #f1f1f1;*/
+  background-color: white;
+  text-align: center;
+  font-family: Helvetica;
+  /*padding: 20px;*/
+  padding: 0;
+  margin: 0;
+}
+
+/*
+.row{
+  padding: 10px;
+  margin:10px;
+}
+*/
+
+/*
+.container{
+  width: 100%;
+}
+*/
+/*.show{
+	background: lightgray;
+	color:black;
+	
+}*/
+
+/* .row{
+	/*display:flex; 
+	justify-content: space-between;
+	align-items: center;
+}*/
+
+/*
+.navbar_row{
+  background-image: url(Images/PlantCarebackground.jpg);
+  display:flex; 
+	justify-content: space-between;
+	align-items: center;
+  position: sticky;
+  top:0;
+  padding-bottom:0px;
+  z-index:1;
+  justify-content: space-around;
+  margin:0;
+}
+
+*/
+
+/*
+.navbar_items{
+	display:flex;
+	justify-content:space-between;
+	font-size: 110%;
+}
+*/
+
+.nav_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+  /*background-color:lightgray;*/
+  /*display: inline-block;*/
+}
+
+.nav_li {
+  float: left;
+}
+
+.nav_li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav_li a:hover {
+  /*background-color: #111;*/
+  text-decoration: underline;
+  transform: scale(1.3);
+}
+
+/*.header {
+  padding: 60px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}*/
+
+.page_name_column {
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.titlecard {
+  background: #206040;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Slideshow/ Carousel CSS */
+
+.mySlides {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 18px;
+  width: 100%;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+/* Shop now button */
+.shop_now_button {
+  background-color: #206040;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+}
+button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+/*.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
+
+/* Content */
+.content {
+  background-color: white;;
+  padding: 15px;
+}
+
+.content:hover {
+  text-decoration: wavy;
+  transform: scale(1.1);
+}
+
+.plant_class_description {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer_and_copy_rights {
+  background-image: url(Images/PlantCarebackground.jpg);
+  color: white;
+}
+
+/* Footer*/
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding-top: 100px;
+  align-items: flex-start;
+}
+
+.footer_section {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer_subsection {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+/*
+#useful_links_items{
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+
+}
+*/
+
+#social_newsletter_email_input_div {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Copy Rights*/
+.copy_rights {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-top: 10px;
+}
+
+#my-popup {
+  width: 600px;
+  height: 400px;
+  background: white;;
+  box-sizing: border-box; /* for inside padding */
+  padding: 10px;
+  border-radius: 5px;
+  /* for center */
+  /*Position: absolute;
+  top:50%;*/
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* for hider */
+  display: none;
+}
+
+@media only screen and (max-width: 990px) {
+  #my-popup {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    flex-wrap: wrap;
+    max-height: 70%;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+}
+
+.pop_up_section {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  font-weight: 700;
+  background-color: #206040;
+  color: white;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.btn-close {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  transform: translate(10px, -10px);
+  /*padding: 0.5rem 0.7rem;*/
+  background: #eee;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.modal input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+/*About us site*/
+
+.about_us_column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.about_us_column:hover {
+  transform: scale(1.1);
+}
+
+.about_us_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.about_us_container {
+  padding: 0 16px;
+}
+
+.about_us_container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about_us_title {
+  color: grey;
+}
+
+.about_us_button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #206040;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.about_us_button:hover {
+  background-color: #206040;
+  text-decoration: none;
+}
+
+.about_us_card:hover {
+  text-decoration: wavy;
+  transform: scale(1.1);
+}
+
+.about_us_images {
+  padding: 10px;
+  margin: 10px;
+}
+
+.subheader {
+  padding: 10px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 990px) {
+  .about_us_column {
+    width: 100%;
+    display: block;
+  }
+}
+
+#quiz_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+}
+/*
+#quiz_card:hover {
+  transform: scale(1.1);
+}
+*/
+#quiz_description {
+  margin: 10px;
+  padding: 10px;
+}
+
+.subheader_content {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16pt;
+}
+
+.box {
+  box-shadow: 0 1em 1em -1em rgba(0, 0, 0, 0.25);
+  margin: 30px;
+  padding: 30px;
+}
+
+.shop_now_section {
+  padding: 30px;
+  margin: 30px;
+}
+
+.flex_justify {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.info_section {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+
+.info_column {
+  width: 33.3%;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 990px) {
+  .info_section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .info_column {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.plant_class_description {
+  margin: 10px;
+  padding: 10px;
+}
+
+/*Stephens navbar */
+#navbar {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 20px;
+  background-image: url(https://images.pexels.com/photos/1090977/pexels-photo-1090977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding-bottom: 5px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbaritem {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+/*My container
+ #navbarcontainer{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  min-width:100%;
+  justify-content: space-around;
+ }
+*/
+
+#navbarcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background: #aae3bb;
+  color: black;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 990px) {
+  #navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    max-height: 220px;
+  }
+  .navbaritem {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+}
+
+#logo {
+  border-radius: 5px;
+  float: left;
+}
+
+.navbar_archors{
+  color: white;
+  margin: auto;
+  padding: 10px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0; /* this is what makes the sticky window and full screen*/
+}
+
+a:hover {
+  color: #aae3bb;
+  opacity: 0.9;
+}
+
+/* Valerija Footer*/
+/*
+body, html {
+  color: white;
+  font-family: Helvetica;
+  background: #206040;
+  font-size: 120%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+*/
+img {
+  max-width: 100%;
+}
+
+.socialImg {
+  height: auto;
+  max-width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.copyrightLogo {
+  height: auto;
+  max-width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(Images/bgleaves.png);
+    height: auto;
+    width: 100%;
+  }
+
+  .footerRow {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+  }
+
+  .footerBox {
+    background: #206040;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 13px 0px 13px;
+    border-color: black;
+    margin: auto;
+  }
+
+  .footerBox2 {
+    background: #26734d;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 13px 0px 13px;
+    border-color: black;
+    margin: auto;
+  }
+
+  .copyright {
+    display: flex;
+    background: #26734d;
+    width: 80%;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 13px 0px 13px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  #footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    background-image: url(images/bgleaves.png);
+    height: auto;
+    width: 100%;
+  }
+
+  .footerRow {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .footerBox {
+    background: #206040;
+    width: 25.7%;
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 13px 0px 13px;
+    border-color: black;
+  }
+
+  .footerBox2 {
+    background: #206040;
+    width: 25.8%;
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: black;
+  }
+
+  .copyright {
+    display: flex;
+    background: #206040;
+    width: 80%;
+    padding: 5px;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0px 13px 0px 13px;
+    border-color: black;
+    margin-top: 10px;
+  }
+
+  .mobileBreak {
+    display: none;
+    visibility: hidden;
+  }
+}
