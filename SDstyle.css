@@ -63,6 +63,7 @@ p{
 }
 li a{
     text-decoration: none;
+    padding:10px;
   }
 #navbar li a:hover {
     background: #aae3bb;
@@ -76,9 +77,7 @@ li a{
     justify-content: space-between;
 }
 a{
-    color:white;
-    margin:auto;
-    padding:10px;
+    color:white;   
 }
 a:hover{
     color: #aae3bb;
