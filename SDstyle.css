@@ -10,6 +10,7 @@ html{
 body{
     font-family: Helvetica;
     font-size:120%;
+    margin:0%;
     padding:0;
 }
 .container{
@@ -20,6 +21,7 @@ body{
     text-align:center;
     margin-top:80px;
 }
+
 p{
     font-size:85%;
 }
@@ -30,11 +32,13 @@ p{
     background-image: url(Images/bgleaves.webp); 
     width:100%;
     position: sticky;
+    top:0;
     padding-bottom:5px;
     z-index:1;
     justify-content: space-around;
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 .navbaritem{
     list-style-type: none;
