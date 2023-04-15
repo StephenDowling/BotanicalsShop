@@ -30,12 +30,6 @@ input[type=submit]:hover {
 	background: #aae3bb;
 }
 
-li a {
-	text-decoration: none;
-	margin: 0px;
-	padding: 10px;
-}
-
 a:hover {
   color: #aae3bb;
   opacity: 0.9;
@@ -112,7 +106,6 @@ a:hover {
 	z-index: 1;
 	justify-content: space-around;
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
 	padding: 20px;
 }
@@ -267,6 +260,11 @@ a:hover {
 	text-decoration: none;
 }
 
+.hovergreen:hover {
+	color: #aae3bb;
+	text-decoration: none;
+}
+
 a:active {
 	text-decoration: none;
 }
@@ -293,6 +291,12 @@ a:active {
 
 /*Media Query - Code for screens <= 990px wide.*/
 @media only screen and (max-width: 990px){
+	
+	li a {
+		text-decoration: none;
+		margin: 0px;
+		padding: 5px;
+	}
 	
 	#navbar {
 		display: flex;
@@ -456,6 +460,12 @@ a:active {
 
 /*Media Query - Code for screens >= 991px wide.*/
 	@media only screen and (min-width: 991px){
+		
+	li a {
+		text-decoration: none;
+		margin: 0;
+		padding: 10px;
+	}
 	
 	#cart2 {
 		display: none;
