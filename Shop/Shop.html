@@ -6,31 +6,40 @@
 	
 		<script src="https://kit.fontawesome.com/f4013dd387.js" crossorigin="anonymous"></script>
 	
-		<title>Botanicals Shop - Shop</title>
+		<title>Plant Shop - Botanicals</title>
 		
 		<meta name="description" content="Botanicals Plant Shop is your first stop to browse a variety of indoor and outdoor plants and learn the basics of the exciting world of gardening!">
 		
-		<link rel="stylesheet" href="../VStyle/style.css">
+		<link rel="stylesheet" href="../VIStyle.css">
 		
 	</head>
 	
 	<body>
 	
-		<div class="navcontainer" id="navbarcontainer"> <!--Overall container-->
-			<div id="navbar"> <!--Sticky navbar-->
-				<a href="../index.html"><img src="../Images/logo4.png" alt="Botanicals Shop logo" id="logo"></a>
-				<ul>
-					<li class="navbaritem"><a href="../index.html">Home</a></li>
-					<li class="navbaritem"><a href="../AboutUs/AboutUs.html">About Us</a></li>
-					<li class="navbaritem"><a href="../PlantCare/PlantCare.html">Plant Care</a></li>
-					<li class="navbaritem"><a href="../ContactUs/ContactUs.html">Contact Us</a></li>
-					<li class="navbaritem"><a href="#">Shop</a></li>
-					<li class="navbaritem navbarspace">_</a></li>
-					<li class="navbaritem"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
-					<li class="navbaritem"><a href="../Cart/Cart.html"><i class="fa fa-fw fa-shopping-basket"></i></a></li>
-					<li class="navbaritem"><a href="../ContactUs/ContactUs.html"><i class="fa fa-fw fa-user"></i></a></li>
-					<li class="navbaritem navbarspace">_</a></li>
-				</ul>
+		<div class="navcontainer" id="navbarcontainer"> <!--Overall container START-->
+		
+			<div id="navbar"> <!--Sticky navbar START-->
+			
+				 <a href="../index.html"><img src="../Images/logo4.png" alt="Botanicals Shop logo" id="logo"></a>
+				
+				<div><!--Menu START-->
+					<ul>
+						<li class="navbaritem"><a href="../index.html">Home</a></li>
+						<li class="navbaritem"><a href="../AboutUs/AboutUs.html">About Us</a></li>
+						<li class="navbaritem"><a href="../PlantCare/PlantCare.html">Plant Care</a></li>
+						<li class="navbaritem"><a href="../ContactUs/ContactUs.html">Contact Us</a></li>
+						<li class="navbaritem linkleft"><a href="#">Shop</a></li>
+					</ul>
+				</div><!--Menu END-->
+				
+				<div><!--Icons START-->
+					<ul>
+						<li class="navbaritem"><a href="#"><i class="fa fa-fw fa-search"></i></a></li>
+						<li class="navbaritem"><a href="../Cart/Cart.html"><i class="fa fa-fw fa-shopping-basket"></i></a></li>
+						<li class="navbaritem linkleft"><a href="../ContactUs/ContactUs.html"><i class="fa fa-fw fa-user"></i></a></li>
+					</ul>
+				</div><!--Icons END-->
+				
 			</div><!--Sticky navbar END-->
 			
 			<div id="banner"><!--Banner image-->
@@ -45,19 +54,19 @@
 				Proceed to Checkout.
 			</div>
 			
-			<div class="container"><!--Container for a shop row-->
+			<div class="container"><!--Shop row START-->
 			
-				<div class="links"><!--Container for cart contents, only visible when on tablet or wider-->
+				<div class="links"><!--Cart contents, only visible when on tablet or wider START-->
 					
 					<div id="cart" class="button-col">Cart: 0</div>
 					<div id="cost" class="button-col">Checkout: &euro; 0</div>
 					<div id="tocheckout" class="button-col" onclick="cartLink()">Pay Now</div>
 					
-				</div><!--Container for cart END-->
+				</div><!--Cart END-->
 				
-				<div id="shop"><!--Container for shop contents-->
+				<div id="shop"><!--Shop contents START-->
 				
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Easy.<br>Light: Direct Sunlight.<br>Water: Semi-frequent.</span><img class="plant" src="../Images/plant1.webp" alt="Image of Neem plant"></div>
@@ -70,7 +79,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Easy.<br>Light: Direct Sunlight.<br>Water: Rarely.</span><img class="plant" src="../Images/plant2.webp" alt="Image of Yucca plant"></div>
@@ -83,7 +92,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Medium.<br>Light: Indirect sunlight.<br>Water: Semi-frequent.</span><img class="plant" src="../Images/plant3.webp" alt="Image of Areca Palm plant"></div>
@@ -96,7 +105,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Easy.<br>Light: Low or Shade.<br>Water: Frequent.</span><img class="plant" src="../Images/plant4.webp" alt="Image of Croton plant"></div>
@@ -113,13 +122,13 @@
 				
 			</div><!--Shop row END-->
 			
-			<div class="container"><!--Container for a shop row-->
+			<div class="container"><!--Shop row START-->
 			
 				<div class="links"></div><!--Padding-->
 				
-				<div id="shop"><!--Container for shop contents-->
+				<div id="shop"><!--Shop contents START-->
 				
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Medium.<br>Light: Low or Shade.<br>Water: Semi-frequent.</span><img class="plant" src="../Images/plant5.webp" alt="Image of Swiss Cheese plant"></div>
@@ -132,7 +141,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Medium.<br>Light: Shade.<br>Water: Rarely.</span><img class="plant" src="../Images/plant6.webp" alt="Image of Snake plant"></div>
@@ -145,7 +154,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Hard.<br>Light: Direct Sunlight.<br>Water: Semi-frequent.</span><img class="plant" src="../Images/plant7.webp" alt="Image of Zanzibar Gem plant"></div>
@@ -158,7 +167,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Medium.<br>Light: Low or Shade.<br>Water: Rarely.</span><img class="plant" src="../Images/plant8.webp" alt="Image of Bonsai plant"></div>
@@ -175,13 +184,13 @@
 				
 			</div><!--Shop row END-->
 			
-			<div class="container"><!--Container for a shop row-->
+			<div class="container"><!--Shop row START-->
 			
 				<div class="links"></div><!--Padding-->
 				
-				<div id="shop"><!--Container for shop contents-->
+				<div id="shop"><!--Shop contents START-->
 				
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Hard.<br>Light: Low or Shade.<br>Water: Frequent.</span><img class="plant" src="../Images/plant9.webp" alt="Image of Persian Ivy plant"></div>
@@ -194,7 +203,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Easy.<br>Light: Low or Shade.<br>Water: Semi-frequent</span><img class="plant" src="../Images/plant10.webp" alt="Image of Lala Rookh plant"></div>
@@ -207,7 +216,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Medium.<br>Light: Low or Shade.<br>Water: Frequent.</span><img class="plant" src="../Images/plant11.webp" alt="Image of Japanese Ivy plant"></div>
@@ -220,7 +229,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Medium.<br>Light: Direct Sunlight.<br>Water: Semi-frequent.</span><img class="plant" src="../Images/plant12.webp" alt="Image of American Wisteria plant"></div>
@@ -237,13 +246,13 @@
 				
 			</div><!--Shop row END-->
 			
-			<div class="container"><!--Container for a shop row-->
+			<div class="container"><!--Shop row START-->
 			
 				<div class="links"></div><!--Padding-->
 				
-				<div id="shop"><!--Container for shop contents-->
+				<div id="shop"><!--Shop contents START-->
 				
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Easy.<br>Light: Direct Sunlight.<br>Climate: Warm.</span><img class="plant" src="../Images/plant13.webp" alt="Image of White Egyptian Lotus plant"></div>
@@ -256,7 +265,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Medium.<br>Light: Direct Sunlight.<br>Climate: Temperate.</span><img class="plant" src="../Images/plant14.webp" alt="Image of Golden Club plant"></div>
@@ -269,7 +278,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Easy<br>Light: Low or Shade.<br>Climate: Temperate.</span><img class="plant" src="../Images/plant15.webp" alt="Image of Water-Crowfoot plant"></div>
@@ -282,7 +291,7 @@
 						
 					</div><!--Product info END-->
 					
-					<div class="shoptile"><!--Container for product info-->
+					<div class="shoptile"><!--Product info START-->
 						
 						<div class="imageborder">
 							<div class="image tooltip"><span class="tooltiptext">Difficulty: Easy<br>Light: Direct Sunlight.<br>Climate: Any.</span><img class="plant" src="../Images/plant16.webp" alt="Image of Broadleaf Cattail plant"></div>
@@ -299,11 +308,11 @@
 				
 			</div><!--Shop row END-->
 			
-			<div id="footer"><!--Footer-->
+			<div id="footer"><!--Footer START-->
 			
-				<div class="footerrow"><!--Container for footer divs-->
+				<div class="footerrow"><!--Footer Divs START-->
 				
-					<div class="footerbox"><!--Container for social media links-->
+					<div class="footerbox"><!--Social media links START-->
 						
 						<h3>Find us on our socials!</h3>
 						<a target="_blank" href="https://twitter.com/"><img class="socialimg" src="../Images/twitterlogo.png" alt="Twitter icon"></a>
@@ -314,7 +323,7 @@
 						
 					</div><!--Social media links END-->
 					
-					<div class="footerbox2"><!--Container for contact info-->
+					<div class="footerbox2"><!--Contact info START-->
 						
 						<h3>Have any questions?</h3>
 						<a href="../ContactUs/ContactUs.html"><p>Contact Us</p></a>
@@ -323,7 +332,7 @@
 						
 					</div><!--Contact info END-->
 				
-					<div class="footerbox"><!--Container for useful links-->
+					<div class="footerbox"><!--Useful links START-->
 						
 						<h3>Useful Resources.</h3>
 						<a target="_blank" href="https://www.gardenersworld.com/how-to/grow-plants/gardening-for-beginners-10-tips/"><p>Beginner Tips</a><br>
@@ -333,11 +342,11 @@
 						
 					</div><!--Useful links END-->
 						
-				</div><!--Container for footer divs END-->
+				</div><!--Footer divs END-->
 				
-				<div class="footerrow"><!--Second container for footer div-->
+				<div class="footerrow"><!--Second container for footer div START-->
 				
-					<div class="copyright"><!--Copyright info-->
+					<div class="copyright"><!--Copyright info START-->
 				
 						<p>Botanicals.io is co-owned by three Software Development students.<br class="mobilebreak">
 						All images used do not belong to us. Except the logo!<br><br>
@@ -351,7 +360,7 @@
 			
 		</div><!--Overall container END-->
 			
-		<script src="../VScript/script.js" type="text/javascript"></script>
+		<script src="../VIScript.js" type="text/javascript"></script>
 		
 	</body>
 	
