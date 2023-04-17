@@ -1,3 +1,5 @@
+
+
 /*Cart function variables*/
 
 var itemCount=0;
@@ -485,17 +487,17 @@ function cartLink() {
 }
 
 function plantOutdoorLink() {
-	location.replace("../PlantCare/PlantCare.html#outdoorplants_TXT");
+	location.replace("../PlantCare/PlantCare.html#itemtwo");
 }
 
 function plantIndoorLink() {
-	location.replace("../PlantCare/PlantCare.html#indoorplants_TXT");
+	location.replace("../PlantCare/PlantCare.html#itemthree");
 }
 
 function plantWallLink() {
-	location.replace("../PlantCare/PlantCare.html#wallplants_TXT");
+	location.replace("../PlantCare/PlantCare.html#itemfour");
 }
 
 function plantWaterLink() {
-	location.replace("../PlantCare/PlantCare.html#waterplants_TXT");
+	location.replace("../PlantCare/PlantCare.html#itemfive");
 }

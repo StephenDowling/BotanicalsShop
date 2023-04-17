@@ -305,9 +305,10 @@ a:active {
 	#navbar {
 		display: flex;
 		justify-content:space-evenly;
-		width: 100%;
+		width: 92%;
 		flex-wrap: wrap;
 		max-height: 220px;
+		padding-right: 200px;
 	}
 	
 	#cart2 {
