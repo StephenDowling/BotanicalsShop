@@ -483,3 +483,19 @@ function plantLink() {
 function cartLink() {
 	location.replace("../Cart/Cart.html");
 }
+
+function plantOutdoorLink() {
+	location.replace("../PlantCare/PlantCare.html#outdoorplants_TXT");
+}
+
+function plantIndoorLink() {
+	location.replace("../PlantCare/PlantCare.html#indoorplants_TXT");
+}
+
+function plantWallLink() {
+	location.replace("../PlantCare/PlantCare.html#wallplants_TXT");
+}
+
+function plantWaterLink() {
+	location.replace("../PlantCare/PlantCare.html#waterplants_TXT");
+}

@@ -10,8 +10,16 @@ body, html {
 	width: 100%;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 img {
 	max-width: 100%;
+}
+
+ul {
+	margin: 8px;
 }
 
 input[type=submit] {
@@ -205,10 +213,6 @@ a:hover {
 	border-radius: 5px;
 }
 
-.linkleft {
-	margin-right: 40px;
-}
-
 /*Tooltip code:*/
 
 .tooltip {
@@ -361,12 +365,8 @@ a:active {
 		border-radius:5px;
 	}
 	
-	.navbar {
-		display: flex;
-		background-image: url(Images/bgleaves.webp);
-		height: 4%;
-		width: 100%;
-		justify-content: center;
+	.linkleft {
+		margin-right: 45px;
 	}
 	
 	.container {
@@ -392,6 +392,7 @@ a:active {
 		padding-top: 3%;
 		padding-bottom: 3%;
 		transition: 0.3s;
+		cursor: pointer;
 	}
 
 	.footerrow {
@@ -452,6 +453,11 @@ a:active {
 		width: 0%;
 	}
 	
+	.findoutmore:hover {
+		color: black;
+		background: #aae3bb;
+	}
+	
 	.tooltip:hover .tooltiptext {
 		visibility: hidden;
 	}
@@ -464,7 +470,7 @@ a:active {
 	li a {
 		text-decoration: none;
 		margin: 0;
-		padding: 10px;
+		padding: 5px;
 	}
 	
 	#cart2 {
@@ -494,13 +500,8 @@ a:active {
 		width: 100%;
 	}
 	
-	.navbar {
-		display: flex;
-		background-image: url(Images/bgleaves.webp);
-		height: 4%;
-		width: 100%;
-		justify-content: left;
-		margin: 0;
+	.linkleft {
+		margin-right: 30px;
 	}
 	
 	.container {
@@ -524,8 +525,9 @@ a:active {
 		width: 100%;
 		text-align: center;
 		padding-top: 3%;
-		padding-bottom: 9%;
+		padding-bottom: 3%;
 		transition: 0.3s;
+		cursor: pointer;
 	}
 
 	.footerrow {
@@ -595,6 +597,11 @@ a:active {
 		flex-direction: column;
 		width: 20%;
 		padding-top: 2%;
+	}
+	
+	.findoutmore:hover {
+		color: black;
+		background: #aae3bb;
 	}
 	
 	.tooltip:hover .tooltiptext {
