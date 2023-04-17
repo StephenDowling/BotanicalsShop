@@ -475,29 +475,29 @@ function formHide() {
 /*Page link functions, alternative to anchor tags that are interfering with button div styles*/
 
 function shopLink() {
-	location.replace("../Shop/Shop.html");
+	window.location.assign("../Shop/Shop.html");
 }
 
 function plantLink() {
-	location.replace("../PlantCare/PlantCare.html");
+	window.location.assign("../PlantCare/PlantCare.html");
 }
 
 function cartLink() {
-	location.replace("../Cart/Cart.html");
+	window.location.assign("../Cart/Cart.html");
 }
 
 function plantOutdoorLink() {
-	location.replace("../PlantCare/PlantCare.html#itemtwo");
+	window.location.assign("../PlantCare/PlantCare.html#itemtwo");
 }
 
 function plantIndoorLink() {
-	location.replace("../PlantCare/PlantCare.html#itemthree");
+	window.location.assign("../PlantCare/PlantCare.html#itemthree");
 }
 
 function plantWallLink() {
-	location.replace("../PlantCare/PlantCare.html#itemfour");
+	window.location.assign("../PlantCare/PlantCare.html#itemfour");
 }
 
 function plantWaterLink() {
-	location.replace("../PlantCare/PlantCare.html#itemfive");
+	window.location.assign("../PlantCare/PlantCare.html#itemfive");
 }
